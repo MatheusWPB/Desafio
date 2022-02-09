@@ -19,9 +19,9 @@ while m != j:
         n += 1
         cont += 1 
      if n in lista:
-        n -= 1
-        cont -=  1
-        m -= 1
+        n += 1
+        lista.append(n)
+        cont +=  1
     lista.sort()
     lista2.append(lista.copy())
     lista.clear()
