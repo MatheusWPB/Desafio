@@ -18,6 +18,7 @@ def fatorial (f,  show =True):
     if show == True:
         print (f'= {a}')
 
+help(fatorial)
 
 
 fatorial(6, show = True)
